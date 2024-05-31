@@ -10,4 +10,4 @@ export async function GET(req: Request) {
         }
     })
     return Response.json({message: 'Users found', status: 200, data: data})
-}
+} 
