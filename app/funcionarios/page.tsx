@@ -1,19 +1,17 @@
-import React from 'react'
 import CardFuncionarios from '../components/funcionarios/CardFuncionarios'
-import { PrismaClient } from '@prisma/client'
 
 export default async function Funcionarios (){
-  const prisma = new PrismaClient();
 
-  const funcionarios = await fetch('api/funcionario');
-
+  const response = await fetch('http://localhost:3000/api/funcionario', {next: {revalidate: 10}, method: "GET"});
+  const {data} = await response.json();
+  console.log(data);
   return (
     <div>
       Funcionarios
-      {funcionarios.map((f, index) => {
+      {data.map((f: any) => {
         return(
           <CardFuncionarios
-          key={index}
+          key={f.nome}
           nomeFuncionario={f.nome}
           cargoFuncionario={f.cargo}
           areaFuncionario={f.area} />
