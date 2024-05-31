@@ -5,16 +5,15 @@ import { PrismaClient } from '@prisma/client'
 export default async function Funcionarios (){
   const prisma = new PrismaClient();
 
-  const funcionarios = await prisma.funcionario.findMany({
-    select: {id:true, nome: true, cargo: true, area: true}
-  });
+  const funcionarios = await fetch('api/funcionario');
+
   return (
     <div>
       Funcionarios
-      {funcionarios.map((f) => {
+      {funcionarios.map((f, index) => {
         return(
           <CardFuncionarios
-          key={f.id}
+          key={index}
           nomeFuncionario={f.nome}
           cargoFuncionario={f.cargo}
           areaFuncionario={f.area} />
