@@ -2,7 +2,7 @@ import CardFuncionarios from '../components/funcionarios/CardFuncionarios'
 
 export default async function Funcionarios (){
 
-  const response = await fetch('127.0.0.1/api/funcionario', {next: {revalidate: 10}, method: "GET"});
+  const response = await fetch('https://infopoint-sigma.vercel.app/api/funcionario', {next: {revalidate: 10}, method: "GET"});
   const {data} = await response.json();
   console.log(data);
   return (
