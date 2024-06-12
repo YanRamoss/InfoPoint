@@ -10,7 +10,7 @@ const NossaEscola = () => {
       </div>
       <div className="flex flex-col w-[90%] mx-auto">
         <h2 className='text-[23px]'>Começo</h2>
-        <div className="flex flex-row">
+        <div className="flex flex-row gap-[30px]">
           <p className='text-[17px] w-[100%]'>No primeiro momento a escola inicia suas atividades como extencão da ETEC Julio Mesquita de Santo André. A Prof. Suely de Campos França Magini foi quem capitaneou a implantaçãoo desta nova unidade escolar do Centro Paula Souza. Em outubro de 2014 o governador do Estado de São Paulo decreta a criação da Etec de Rio Grande da Serra, e nomeia o Prof.Cláudio Kubilius como Diretor da unidade.</p>
           <div className="flex w-[100%] h-[300px] bg-[#bbbbbba8] rounded-[3px]">
 
