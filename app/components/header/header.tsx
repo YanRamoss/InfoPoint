@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import InfoPoint from '@/public/Infopoint.png';
-
+import HeaderTitle from './HeaderTitle';
 const Header = () => {
   return (
     <header>
@@ -15,11 +15,12 @@ const Header = () => {
         </div>
         <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] text-lg font-medium'>
             <Link href="/">Home</Link>
+            <Link href="/nossa-escola">Nossa Escola</Link>
             <Link href="/cardapio">Cardápio</Link>
             <Link href="/calendario">Calendário</Link>
             <Link href="/funcionarios">Funcionários</Link>
-            <Link href="/sobre-nos">Sobre Nós</Link>
         </nav>
+        {/* <HeaderTitle title='Home' image="teste" /> */}
     </header>
   )
 }
