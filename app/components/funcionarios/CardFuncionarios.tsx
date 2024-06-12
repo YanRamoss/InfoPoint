@@ -14,7 +14,7 @@ const CardFuncionarios = () => {
       {/* <p>{props.nomeFuncionario}</p>
       <p>{props.cargoFuncionario}</p> */}
       <p className='font-bold'>Nome do Funcionário</p>
-      <p className='font-semibold'>Cargo</p>
+      <p className='font-medium'>Cargo</p>
       <p>Área de Atuação</p>
       </div>
   )
