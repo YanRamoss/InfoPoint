@@ -8,7 +8,7 @@ type propsType = {
 const CardFuncionarios = (props:propsType) => {
 // const CardFuncionarios = () => {
   return (
-    <div className='flex flex-col w-[auto] h-[auto] min-w-[160px] max-w-[180px]'>
+    <div className='flex flex-col w-[auto] h-[auto] max-w-[180px]'>
       <div className='flex w-[100%] h-[150px] bg-[#9b9b9b88] rounded-[3px]'>
       </div>
       {/* <p>{props.nomeFuncionario}</p>
