@@ -1,11 +1,11 @@
 import React from 'react'
-// type propsType = {
-//     nomeFuncionario:string,
-//     cargoFuncionario:string,
-//     areaFuncionario?:string,
-// }
+type propsType = {
+    nomeFuncionario:string,
+    cargoFuncionario:string,
+    areaFuncionario?:string,
+}
 
-// const CardFuncionarios = (props:propsType) => {
+const CardFuncionarios = (props:propsType) => {
 const CardFuncionarios = () => {
   return (
     <div className='flex flex-col w-[auto] h-[auto]'>
@@ -13,9 +13,9 @@ const CardFuncionarios = () => {
       </div>
       {/* <p>{props.nomeFuncionario}</p>
       <p>{props.cargoFuncionario}</p> */}
-      <p>Nome do Funcionário</p>
-      <p>Cargo</p>
-      <p>Área de Atuação</p>
+      <p>{props.nomeFuncionario}</p>
+      <p>{props.cargoFuncionario}</p>
+      <p>{props.areaFuncionario}</p>
       </div>
   )
 }
