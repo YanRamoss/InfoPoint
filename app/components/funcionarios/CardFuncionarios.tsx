@@ -13,8 +13,8 @@ const CardFuncionarios = () => {
       </div>
       {/* <p>{props.nomeFuncionario}</p>
       <p>{props.cargoFuncionario}</p> */}
-      <p>Nome do Funcionário</p>
-      <p>Cargo</p>
+      <p className='font-bold'>Nome do Funcionário</p>
+      <p className='font-semibold'>Cargo</p>
       <p>Área de Atuação</p>
       </div>
   )
