@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container mx-auto">
       <h1 className='text-center text-[25px] py-[30px]'>Quem Somos</h1>
       {/* <Image src={HomeBanner} alt="Home" width={} height={100}/> */}
-      <div className="flex flex-row w-[90%] mx-auto gap-[30px] justify-center" >
+      <div className="flex flex-row w-[90%] mx-auto gap-[30px] justify-center bg-iblue" >
         <div className="flex w-[80%] h-[500px] bg-[#b8b8b898] rounded-[3px]">
           .
         </div>
