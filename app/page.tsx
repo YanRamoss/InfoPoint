@@ -1,4 +1,4 @@
-import HomeBanner from '@/public/home-banner.jpg'
+// import HomeBanner from '@/public/home-banner.jpg'
 import Image from 'next/image';
 
 export default function Home() {
