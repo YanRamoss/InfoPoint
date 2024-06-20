@@ -19,7 +19,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col w-[90%] mt-[80px] mx-auto gap-[30px]">
+      <div className="flex flex-col w-[90%] mt-[80px] mx-auto gap-[30px] text-black">
         <div className="flex flex-col">
           <h2 className='text-[23px] font-semibold'>Missão</h2>
           <p className='text-[17px]'>Nossa missão é transformar a rotina e vida escolar dos alunos e docentes, tornando ela mais pratica e simples em questão da transmissão de informações, fazendo com que todo frequentador do âmbito escolar tenha melhor experiência acadêmica.</p>
