@@ -18,42 +18,6 @@ export default async function Funcionarios (){
             areaFuncionario={f.area} />
           )
         })} */}
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
-        <CardFuncionarios />
       </div>
     </div>
   )
