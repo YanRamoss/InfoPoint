@@ -8,7 +8,7 @@ export async function GET(req: Request) {
             cargo: true,
             area: true
         }
-    })
+    }) 
     if(!data) {
         Response.json({message: 'Users not found', status: 404});
     }

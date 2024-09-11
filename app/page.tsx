@@ -8,8 +8,8 @@ export default function Home() {
         Quem Somos
         </h1> 
       <div className="flex flex-row w-[90%] mx-auto mt-10 gap-[30px] justify-center" >
-        <div className="flex w-[80%] h-[500px] bg-[#b8b8b898] rounded-[3px]">
-          .
+        <div className="flex w-[80%] h-[500px] bg-[url('/images/cursos/imagenETEC.jpg')] bg-cover bg-center rounded-[3px]">
+
         </div>
         <div className="flex flex-col w-[80%] text-[20px] gap-[20px] bg-iblue p-[20px] text-white">
           <p>
