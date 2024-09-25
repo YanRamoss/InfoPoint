@@ -49,7 +49,7 @@ export default function Home() {
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Nicole.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Ana.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Ana Luisa.jpg')] bg-cover bg-center">
 
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Sofia.jpg')] bg-cover bg-center">
