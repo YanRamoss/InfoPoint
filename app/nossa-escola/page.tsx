@@ -31,7 +31,7 @@ const NossaEscola = () => {
           </p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-black text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagemds.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-black text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/IMAGEMDds.jpg')] bg-cover bg-center items-center justify-center">
             Desenvolvimento de Sistemas
           </div>
           <p className='text-[17px] w-[100%]'>
