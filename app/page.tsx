@@ -43,22 +43,22 @@ export default function Home() {
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Yan.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Nicole.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Ana.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Sofia.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Duda.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px]">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Willian.jpg')] bg-cover bg-center">
 
           </div>
         </div>
