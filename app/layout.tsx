@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className="container mx-auto pb-[100px]">
             {children}
           </div>
-        {/* <Footer /> */}
+        <Footer />
         </body>
     </html>
   );
