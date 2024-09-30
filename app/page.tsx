@@ -1,4 +1,12 @@
 // import HomeBanner from '@/public/home-banner.jpg'
+const images = [
+  "./Yan.jpg",
+  "./Ana.jpg",
+  "./Duda.jpg",
+  "./Nicole.jpg",
+  "./Sofia.jpg",
+  "./Willian.jpg"
+  ];
 export default function Home() { 
   return (
     <div className="container mx-auto">
@@ -41,7 +49,7 @@ export default function Home() {
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Yan.jpg')] bg-cover bg-center">
+          {/* <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Yan.jpg')] bg-cover bg-center">
 
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Nicole.jpg')] bg-cover bg-center">
@@ -58,7 +66,23 @@ export default function Home() {
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Willian.jpg')] bg-cover bg-center">
 
-          </div>
+          </div> */}
+           <Carousel loop>
+          {images.map((src, i) => {
+            return (
+              // 👇 style each individual slide.
+              // relative - needed since we use the fill prop from next/image component
+              // h-64 - arbitrary height
+              // flex[0_0_100%]
+              //   - shorthand for flex-grow:0; flex-shrink:0; flex-basis:100%
+              //   - we want this slide to not be able to grow or shrink and take up 100% width of the viewport.
+              <div className="relative h-64 flex-[0_0_100%]" key={i}>
+                {/* use object-cover + fill since we don't know the height and width of the parent */}
+                <Image src={src} fill className="object-cover" alt="alt" />
+              </div>
+          );
+        })}
+      </Carousel>
         </div>
       </div>
     </div>
