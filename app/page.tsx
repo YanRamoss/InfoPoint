@@ -1,4 +1,5 @@
 // import HomeBanner from '@/public/home-banner.jpg'
+import Image from "next/image";
 import Carousel from "./components/carrossel/Carousel";
 const images = [
   "./Yan.jpg",
