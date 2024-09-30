@@ -1,3 +1,4 @@
+"use client"
 // import the hook and options type
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import React from "react";
