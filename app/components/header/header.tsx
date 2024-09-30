@@ -7,11 +7,13 @@ const Header = () => {
   return (
     <header>
         <div className='flex flex-row h-[70px] w-screen items-center justify-center border-b-4 border-[#43FEF6] bg-iblue'>
-            <Image
-            src={InfoPoint}
-            width={200}
-            height={80}
-            alt='InfoPoint' />
+            <Link href='./'>
+              <Image
+              src={InfoPoint}
+              width={200}
+              height={80}
+              alt='InfoPoint' />
+            </Link>
         </div>
         <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] text-lg font-medium'>
             <Link href="/">Home</Link>
