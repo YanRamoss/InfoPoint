@@ -27,10 +27,9 @@ body {
   }
 }
 
-.text-outline {
-  text-shadow: 
-      1px 1px 0 #004AAD,
-      -1px -1px 0 #004AAD,
-      1px -1px 0 #004AAD,
-      -1px 1px 0 #004AAD;
+.op {
+  opacity: 0.5;
+}
+.op-100 {
+  opacity: 1;
 }

@@ -23,22 +23,22 @@ const NossaEscola = () => {
       <div className="flex flex-col gap-[30px]">
         <h1 className='text-[25px]'>Cursos</h1>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-black text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagemADM.jpg')] bg-cover bg-center items-center justify-center">
-            Administração
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagemADM.jpg')] op bg-cover bg-center items-center justify-center">
+            <div className='op-100'> Administração </div>
           </div>
           <p className='text-[17px] w-[100%]'>
             O técnico em Administração gerencia recursos e executa tarefas administrativas, além de atender clientes e trabalhar em equipe. Busca otimizar processos, sugerir inovações e manter ética em todas as atividades.
           </p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-black text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/IMAGEMds.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/IMAGEMds.jpg')] op bg-cover bg-center items-center justify-center">
             Desenvolvimento de Sistemas
           </div>
           <p className='text-[17px] w-[100%]'>
             É o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-black text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagenedf.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagenedf.jpg')] op bg-cover bg-center items-center justify-center">
             Edificações
           </div>
           <p className='text-[17px] w-[100%]'>
@@ -46,42 +46,42 @@ const NossaEscola = () => {
 O Técnico em Edificações projeta e executa obras seguindo normas técnicas e legais, planeja e orça projetos, supervisiona construções, oferece assistência técnica em pesquisas e controle de materiais, coordena manutenções e orienta sobre produtos e equipamentos especializados na Construção Civil.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/iamgensINFONET.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/iamgensINFONET.jpg')] op bg-cover bg-center items-center justify-center">
             Informatica para internet 
           </div>
           <p className='text-[17px] w-[100%]'>
            O técnico em Informática para Internet desenvolve programas de computador e aplicativos para dispositivos móveis, utiliza ferramentas de desenvolvimento de sistemas para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos. </p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagenRH.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagenRH.jpg')] op bg-cover bg-center items-center justify-center">
             Recursos Humanos
           </div>
           <p className='text-[17px] w-[100%]'>
             O Técnico em Recursos Humanos administra as relações e ética no ambiente de trabalho. Suas responsabilidades incluem tarefas administrativas, como folha de pagamento e benefícios, além de desenvolver os funcionários por meio de treinamentos e avaliações de desempenho.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/iamgemcomercio.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/iamgemcomercio.jpg')] op bg-cover bg-center items-center justify-center">
             Comercio
           </div>
           <p className='text-[17px] w-[100%]'>
             O curso enfoca os processos de compra e venda, com destaque para a matemática no cálculo de lucros e preços. Os alunos aprenderão a gerenciar estoques, analisar concorrência e fornecedores, controlar qualidade e negociar com clientes. Além disso, serão ensinadas técnicas de marketing para atrair consumidores, como a arrumação estratégica de produtos em pontos de venda.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagengestao.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagengestao.jpg')] op bg-cover bg-center items-center justify-center">
             Gestão de Projetos
           </div>
           <p className='text-[17px] w-[100%]'>
             A gestão de projetos é a aplicação de conhecimentos, técnicas e habilidades na elaboração de atividades para atingir determinados objetivos. Simplificando, é uma metodologia que permite transformar estratégias em resultados, em especial, no contexto dos negócios.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagentrancacoes.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagentrancacoes.jpg')] op bg-cover bg-center items-center justify-center">
             Transações Imobiliarias
           </div>
           <p className='text-[17px] w-[100%]'>
             O Técnico em Transações Imobiliárias é um profissional que facilita transações de imóveis, administra propriedades, orienta sobre documentação, pesquisa mercado, capta e comercializa imóveis, avalia propriedades, interpreta projetos arquitetônicos, estuda potencialidades das edificações e tendências do mercado, além de oferecer assessoria pós-transação aos clientes.</p>
         </div>
         <div className="flex flex-row gap-[40px]">
-          <div className="flex text-outline text-blackblack text-[20px] font-bold w-[80%] h-[130px] bg-[url('/images/cursos/imagensecretariado.jpg')] bg-cover bg-center items-center justify-center">
+          <div className="flex text-outline text-white text-[20px] font-normal w-[80%] h-[130px] bg-[url('/images/cursos/imagensecretariado.jpg')] op bg-cover bg-center items-center justify-center">
             Secretariado
           </div>
           <p className='text-[17px] w-[100%]'>
