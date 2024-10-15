@@ -1,5 +1,7 @@
-import prisma from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
+
 import bcrypt from 'bcrypt';
+const prisma = new PrismaClient();
 
 export async function GET(req: Request) {
   const { nome, cargo, senha } = await req.json();
