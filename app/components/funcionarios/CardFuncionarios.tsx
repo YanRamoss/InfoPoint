@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 type propsType = {
     nomeFuncionario:string,
@@ -9,7 +10,14 @@ type propsType = {
 const CardFuncionarios = (props:propsType) => {
   return (
     <div className='flex flex-col w-[180px] h-[auto]'>
-      <div className='flex w-[100%] h-[150px] bg-[#9b9b9b88] rounded-[3px] cursor-pointer'>
+      <div className="flex relative w-[80%] h-[150px] rounded-[3px] cursor-pointer">  
+        <Image
+        src={props.fotoFuncionario}
+        alt={props.nomeFuncionario}
+        fill={true}
+        quality={100}
+        style={{objectFit: "cover"}}
+        />
       </div>
       <p>{props.nomeFuncionario}</p>
       <p>{props.cargoFuncionario}</p>
