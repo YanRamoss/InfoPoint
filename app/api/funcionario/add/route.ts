@@ -16,9 +16,9 @@ export async function POST(req: Request) {
       },
     });
 
-    return NextResponse.json(funcionario, { status: 201 });
+    return Response.json(funcionario, { status: 201 });
   } catch (error) {
     console.error(error);
-    return NextResponse.json({ error: 'Failed to add funcionario' }, { status: 500 });
+    return Response.json({ error: 'Failed to add funcionario' }, { status: 500 });
   }
 }
