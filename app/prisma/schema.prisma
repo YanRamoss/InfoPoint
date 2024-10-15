@@ -14,4 +14,21 @@ model Funcionario {
   nome     String
   cargo   String
   area String
+  imagem String
+}
+model Usuarios {
+  id        String     @default(cuid()) @id
+  nome     String
+  cargo   String
+  senha String
+}
+model Cardapio {
+  id        String     @default(cuid()) @id
+  prato     String
+  data   String
+}
+model Banners {
+  id        String     @default(cuid()) @id
+  nome     String
+  imagem   String
 }
