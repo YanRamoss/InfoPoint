@@ -1,4 +1,6 @@
-import prisma from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 export async function POST(req: Request) {
   const { nome, cargo, area, imagem } = await req.json();
 
