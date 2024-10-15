@@ -1,20 +1,26 @@
+// app/api/funcionario/add/route.ts
+
+import { NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
-export async function POST(req: Request) {
-  const { nome, cargo, area, imagem } = await req.json();
 
-    try {
-      const funcionario = await prisma.funcionario.create({
-        data: {
-          nome,
-          cargo,
-          area,
-          imagem,
-        },
-      });
-      Response.json(funcionario);
-    } catch (error) {
-      Response.json({ error: 'Falha no registro.' });
-    }
+export async function POST(req: Request) {
+  try {
+    const { nome, cargo, area, imagem } = await req.json();
+
+    const funcionario = await prisma.funcionario.create({
+      data: {
+        nome,
+        cargo,
+        area,
+        imagem,
+      },
+    });
+
+    return NextResponse.json(funcionario, { status: 201 });
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ error: 'Failed to add funcionario' }, { status: 500 });
+  }
 }
