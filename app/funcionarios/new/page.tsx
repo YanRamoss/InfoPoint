@@ -1,71 +1,67 @@
 'use client'
-import React, { useState, FormEvent } from 'react';
+import { useState } from 'react';
 
-const NovoFuncionario = () => {
+export default function AddFuncionario() {
   const [nome, setNome] = useState('');
   const [cargo, setCargo] = useState('');
+  const [area, setArea] = useState('');
   const [imagem, setImagem] = useState('');
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log({ nome, cargo, imagem });
+
+  const response = await fetch('/funcionarios/add', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ nome, cargo, area, imagem }),
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log('Funcionario added:', data);
+
+      setNome('');
+      setCargo('');
+      setArea('');
+      setImagem('');
+    } else {
+      console.error('Failed to add funcionario');
+    }
   };
 
-  return(
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Novo Funcionário</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="nome" className="block text-sm font-medium text-gray-700">
-            Nome
-          </label>
-          <input
-            type="text"
-            id="nome"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500"
-            required
-          />
-        </div>
-
-        <div>
-          <label htmlFor="cargo" className="block text-sm font-medium text-gray-700">
-            Cargo
-          </label>
-          <input
-            type="text"
-            id="cargo"
-            value={cargo}
-            onChange={(e) => setCargo(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500"
-            required
-          />
-        </div>
-
-        <div>
-          <label htmlFor="imagem" className="block text-sm font-medium text-gray-700">
-            Imagem URL
-          </label>
-          <input
-            type="url"
-            id="imagem"
-            value={imagem}
-            onChange={(e) => setImagem(e.target.value)}
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500"
-            required
-          />
-        </div>
-
-        <input
-          type="submit"
-          value="Novo Funcionário"
-          className="w-full bg-blue-600 text-black font-bold py-2 rounded-md hover:bg-blue-500"
-        />
-      </form>
-    </div>
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        placeholder="Nome"
+        value={nome}
+        onChange={(e) => setNome(e.target.value)}
+        required
+      />
+      <input
+        type="text"
+        placeholder="Cargo"
+        value={cargo}
+        onChange={(e) => setCargo(e.target.value)}
+        required
+      />
+      <input
+        type="text"
+        placeholder="Area"
+        value={area}
+        onChange={(e) => setArea(e.target.value)}
+        required
+      />
+      <input
+        type="text"
+        placeholder="Imagem"
+        value={imagem}
+        onChange={(e) => setImagem(e.target.value)}
+        required
+      />
+      <button type="submit">Add Funcionario</button>
+    </form>
   );
-};
-
-export default NovoFuncionario;
+}

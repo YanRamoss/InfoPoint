@@ -1,15 +1,15 @@
 import prisma from '@prisma/client';
 export async function GET(req: Request) {
-  const { prato, data } = await req.json();
+  const { nome, imagem } = await req.json();
 
     try {
-      const cardapio = await prisma.cardapio.create({
+      const banners = await prisma.banners.create({
         data: {
-          prato,
-          data
+          nome,
+          imagem,
         },
       });
-      Response.json(cardapio);
+      Response.json(banners);
     } catch (error) {
       Response.json({ error: 'Falha no registro.' });
     }

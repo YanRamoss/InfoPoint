@@ -1,19 +1,18 @@
-import prisma from "@/app/lib/prisma"
+import prisma from '@prisma/client';
 export async function POST(req: Request) {
-    const { searchParams } = new URL(req.url)
-    const nome = searchParams.get('nome');
-    const cargo = searchParams.get('cargo');
-    const area = searchParams.get('area');
-    const imagem = searchParams.get('imagem');
+  const { nome, cargo, area, imagem } = await req.json();
 
-
-    const data = await prisma.funcionario.create({
+    try {
+      const funcionario = await prisma.funcionario.create({
         data: {
-            nome: nome,
-            cargo: cargo,
-            area: area,
-            imagem: imagem
-        }
-    })
-    return Response.json({message: 'Users found', status: 200, data: data})
-} 
+          nome,
+          cargo,
+          area,
+          imagem,
+        },
+      });
+      Response.json(funcionario);
+    } catch (error) {
+      Response.json({ error: 'Falha no registro.' });
+    }
+}
