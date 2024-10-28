@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --iblue: #004AAD;
 }
  
 @media (prefers-color-scheme: dark) {
@@ -32,4 +33,14 @@ body {
 }
 .op-100 {
   opacity: 1;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 600;
+  background-color: var(--iblue);
+  opacity: 0.8;
 }

@@ -11,11 +11,11 @@ const images = [
 export default function Home() { 
   return (
     <div className="container mx-auto">
-        <h1 className="flex items-center justify-center bg-[url('/images/pages/home-banner.jpg')] bg-cover bg-center h-[220px] text-[25px] py-[30px]">
-        Quem Somos
+        <h1 className="flex items-center justify-center bg-[url('/imagens/pages/home-banner.jpg')] bg-cover bg-center h-[220px] text-[25px] py-[30px]">
+          <div className="title">Quem Somos</div>
         </h1> 
       <div className="flex flex-row w-[90%] mx-auto mt-10 gap-[30px] justify-center" >
-        <div className="flex w-[80%] h-[500px] bg-[url('/images/cursos/imagenETEC.jpg')] bg-cover bg-center rounded-[3px]">
+        <div className="flex w-[80%] h-[500px] bg-[url('/imagens/cursos/etec.jpg')] bg-cover bg-center rounded-[3px]">
 
         </div>
         <div className="flex flex-col w-[80%] text-[20px] gap-[20px] bg-iblue p-[20px] text-white">
@@ -50,22 +50,22 @@ export default function Home() {
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Yan.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Nicole.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Ana.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Sofia.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Duda.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center">
 
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/images/Willian.jpg')] bg-cover bg-center">
+          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center">
 
           </div>
         </div>
