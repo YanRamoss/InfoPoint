@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 export default function AddCardapio() {
   const [prato, setPrato] = useState('');
-  const [data, setDatap] = useState('');
   const PORT = process.env.PORT;
   const [data, setDatap] = useState('option1');
 
