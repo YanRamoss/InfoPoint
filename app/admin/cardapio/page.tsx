@@ -8,7 +8,7 @@ export default function AddCardapio() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-  const response = await fetch('http://localhost:3242/api/cardapio/add', {
+  const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio/add', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
