@@ -53,8 +53,8 @@ export default function AddCardapio() {
       />
       
       <select
-        value={selectedOption}
-        onChange={(e) => setSelectedOption(e.target.value)}
+        value={data}
+        onChange={(e) => setData(e.target.value)}
         className="block w-full max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
       >
         {options.map((option) => (
