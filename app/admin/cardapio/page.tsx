@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function AddCardapio() {
   const [prato, setPrato] = useState('');
   const PORT = process.env.PORT;
-  const [data, setData] = useState('option1');
+  const [data, setData] = useState('Segunda-feira');
 
   const options = [
     { value: 'Segunda-feira', label: 'Segunda-feira' },
