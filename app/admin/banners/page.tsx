@@ -38,8 +38,8 @@ export default function AddBanner() {
       />
       <input
         type="text"
-        placeholder="imagem"
-        value={link}
+        placeholder="Imagem"
+        value={imagem}
         onChange={(e) => setImagem(e.target.value)}
         required
       />
