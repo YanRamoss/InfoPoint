@@ -1,4 +1,4 @@
-export default function CardapioComp() {
+export default async function CardapioComp() {
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', {next: {revalidate: 10}, method: "GET"});
   const {data} = await response.json();
   return (
