@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function AddBanner() {
   const [banner, setBanner] = useState('');
-  const [link, setLink] = useState('');
+  const [imagem, setImagem] = useState('');
   const PORT = process.env.PORT;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -13,7 +13,7 @@ export default function AddBanner() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ banner, link }),
+      body: JSON.stringify({ banner, imagem }),
     });
 
     if (response.ok) {
@@ -38,9 +38,9 @@ export default function AddBanner() {
       />
       <input
         type="text"
-        placeholder="Link"
+        placeholder="imagem"
         value={link}
-        onChange={(e) => setLink(e.target.value)}
+        onChange={(e) => setImagem(e.target.value)}
         required
       />
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
