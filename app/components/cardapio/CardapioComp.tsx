@@ -1,4 +1,10 @@
 export default async function CardapioComp() {
+
+  type info = {
+    prato: string,
+    dia: string,
+  }
+
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', {next: {revalidate: 10}, method: "GET"});
   const {info} = await response.json();
   return (
@@ -7,8 +13,8 @@ export default async function CardapioComp() {
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5">
         {Object.entries(info).map(([prato, dia]) => (
           <div key={prato} className="bg-white p-5 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold">{dia}</h2>
-            <p><strong>Almoço:</strong> {prato}</p>
+            <h2 className="text-xl font-semibold">{info.dia}</h2>
+            <p><strong>Almoço:</strong> {info.prato}</p>
           </div>
         ))}
       </div>
