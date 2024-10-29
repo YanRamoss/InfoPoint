@@ -15,7 +15,7 @@ export default async function CardapioComp() {
             <p><strong>Almoço:</strong> {f.prato}</p>
           </div>
           )
-        }) }
+        }) } 
       </div>
     </div>
   );
