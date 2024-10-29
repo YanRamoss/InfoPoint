@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function AddCardapio() {
   const [prato, setPrato] = useState('');
   const PORT = process.env.PORT;
-  const [dia, setDia] = useState('option1');
+  const [data, setData] = useState('option1');
 
   const options = [
     { value: 'segunda', label: 'Segunda-feira' },
@@ -21,7 +21,7 @@ export default function AddCardapio() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ prato, dia }),
+      body: JSON.stringify({ prato, data }),
     });
 
     if (response.ok) {
@@ -29,7 +29,7 @@ export default function AddCardapio() {
       console.log('Cardápio adicionado:', data);
 
       setPrato('');
-      setDia('');
+      setData('');
     } else {
       console.error('Failed to add funcionario');
     }
@@ -46,8 +46,8 @@ export default function AddCardapio() {
       />
       
       <select
-        value={dia}
-        onChange={(e) => setDia(e.target.value)}
+        value={data}
+        onChange={(e) => setData(e.target.value)}
         className="block w-full max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
       >
         {options.map((option) => (

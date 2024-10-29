@@ -25,7 +25,7 @@ model Usuarios {
 model Cardapio {
   id        String     @default(cuid()) @id
   prato     String
-  dia   String
+  data   String
 }
 model Banners {
   id        String     @default(cuid()) @id
