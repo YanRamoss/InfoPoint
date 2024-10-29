@@ -11,8 +11,10 @@ export async function POST(req: Request) {
           data
         },
       });
-      Response.json(cardapio);
-    } catch (error) {
-      Response.json({ error: 'Falha no registro.' });
-    }
+   
+    return Response.json({message: funcionario, status: 201 });
+  } catch (error) {
+    console.error(error);
+    return Response.json({ error: 'Failed to add funcionario' }, { status: 500 });
+  }
 }
