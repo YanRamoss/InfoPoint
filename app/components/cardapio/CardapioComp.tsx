@@ -1,21 +1,3 @@
-const menu = {
-  Segunda: {
-    lunch: "Arroz, feijão e frango grelhado",
-  },
-  Terça: {
-    lunch: "Salada de atum",
-  },
-  Quarta: {
-    lunch: "Quinoa com legumes",
-  },
-  Quinta: {
-    lunch: "Taco de carne",
-  },
-  Sexta: {
-    lunch: "Sushi",
-  }
-};
-
 export default function CardapioComp() {
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', {next: {revalidate: 10}, method: "GET"});
   const {data} = await response.json();
