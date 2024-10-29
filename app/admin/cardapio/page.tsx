@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function AddCardapio() {
   const [prato, setPrato] = useState('');
   const PORT = process.env.PORT;
-  const [data, setDatap] = useState('option1');
+  const [data, setData] = useState('option1');
 
   const options = [
     { value: 'segunda', label: 'Segunda-feira' },
@@ -29,7 +29,7 @@ export default function AddCardapio() {
       console.log('Cardápio adicionado:', data);
 
       setPrato('');
-      setDatap('');
+      setData('');
     } else {
       console.error('Failed to add funcionario');
     }
@@ -42,13 +42,6 @@ export default function AddCardapio() {
         placeholder="Prato"
         value={prato}
         onChange={(e) => setPrato(e.target.value)}
-        required
-      />
-      <input
-        type="date"
-        placeholder="Data"
-        value={data}
-        onChange={(e) => setDatap(e.target.value)}
         required
       />
       
