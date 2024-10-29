@@ -12,7 +12,7 @@ export async function POST(req: Request) {
         },
       });
    
-    return Response.json({message: banner, status: 201 });
+    return Response.json({message: banners, status: 201 });
   } catch (error) {
     console.error(error);
     return Response.json({ error: 'Failed to add banner' }, { status: 500 });
