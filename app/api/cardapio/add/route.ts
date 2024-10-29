@@ -4,11 +4,11 @@ const prisma = new PrismaClient();
 
 export async function POST(req: Request) {
   try {
-  const { prato, data } = await req.json();
+  const { prato, dia } = await req.json();
     const cardapio = await prisma.cardapio.create({
         data: {
           prato,
-          data
+          dia
         },
       });
    

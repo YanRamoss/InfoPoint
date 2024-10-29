@@ -6,7 +6,7 @@ export async function GET(req: Request) {
     const data = await prisma.cardapio.findMany({
         select:{
             prato: true,
-            data: true,
+            dia: true,
         }
     }) 
     if(!data) {
