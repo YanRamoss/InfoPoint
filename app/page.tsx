@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="flex items-center justify-center bg-[url('/imagens/pages/home-banner.jpg')] bg-cover bg-center h-[220px] text-[25px] py-[30px]">
           <div className="title">Quem Somos</div>
         </h1> 
-      <div className="flex flex-row w-[90%] mx-auto mt-10 gap-[30px] justify-center" >
+      <div className="flex flex-col lg:flex-row w-[90%] mx-auto mt-10 gap-[30px] justify-center" >
         <div className="flex w-[80%] h-[500px] bg-[url('/imagens/cursos/etec.jpg')] bg-cover bg-center rounded-[3px]">
 
         </div>
