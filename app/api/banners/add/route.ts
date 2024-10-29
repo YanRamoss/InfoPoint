@@ -1,7 +1,7 @@
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
-export async function GET(req: Request) {
+export async function POST(req: Request) {
   const { nome, imagem } = await req.json();
 
     try {
