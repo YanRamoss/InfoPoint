@@ -20,7 +20,7 @@ export default function AddBanner() {
       const data = await response.json();
       console.log('Cardápio adicionado:', data);
 
-      setBanner('');
+      setNome('');
       setImagem('');
     } else {
       console.error('Failed to add funcionario');
