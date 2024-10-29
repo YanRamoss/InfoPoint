@@ -1,12 +1,11 @@
 import prisma from "@/app/lib/prisma"
-import { triggerAsyncId } from "async_hooks";
 
 export async function GET(req: Request) {
 
     const data = await prisma.cardapio.findMany({
         select:{
             prato: true,
-            data: true,
+            data: true
         }
     }) 
     if(!data) {
