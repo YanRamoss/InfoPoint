@@ -8,7 +8,7 @@ export default function AddBanner() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-  const response = await fetch('http://localhost:3242/api/banners/add', {
+  const response = await fetch('https://infopoint-sigma.vercel.app/api/banners/add', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
