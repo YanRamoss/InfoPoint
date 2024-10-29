@@ -11,8 +11,10 @@ export async function POST(req: Request) {
           imagem,
         },
       });
-      Response.json(banners);
-    } catch (error) {
-      Response.json({ error: 'Falha no registro.' });
-    }
+   
+    return Response.json({message: cardapio, status: 201 });
+  } catch (error) {
+    console.error(error);
+    return Response.json({ error: 'Failed to add cardapio' }, { status: 500 });
+  }
 }
