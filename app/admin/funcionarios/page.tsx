@@ -10,7 +10,7 @@ export default function AddFuncionario() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-  const response = await fetch('http://localhost:'+PORT+'/api/funcionario/add', {
+  const response = await fetch('http://localhost:3242/api/funcionario/add', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
