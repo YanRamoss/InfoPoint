@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function AddBanner() {
-  const [banner, setBanner] = useState('');
+  const [nome, setNome] = useState('');
   const [imagem, setImagem] = useState('');
   const PORT = process.env.PORT;
 
@@ -13,7 +13,7 @@ export default function AddBanner() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ banner, imagem }),
+      body: JSON.stringify({ nome, imagem }),
     });
 
     if (response.ok) {
@@ -32,8 +32,8 @@ export default function AddBanner() {
       <input
         type="text"
         placeholder="Banner"
-        value={banner}
-        onChange={(e) => setBanner(e.target.value)}
+        value={nome}
+        onChange={(e) => setNome(e.target.value)}
         required
       />
       <input
