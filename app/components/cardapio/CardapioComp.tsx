@@ -6,7 +6,7 @@ export default async function CardapioComp() {
       <h1 className="text-center text-[25px] py-[30px]">Cardápio Semanal</h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5">
         {Object.entries(info).map(([prato, data]) => (
-          <div key={data} className="bg-white p-5 rounded-lg shadow-md">
+          <div key={prato} className="bg-white p-5 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold">{data}</h2>
             <p><strong>Almoço:</strong> {prato}</p>
           </div>
