@@ -7,11 +7,11 @@ export default function AddCardapio() {
   const [data, setData] = useState('option1');
 
   const options = [
-    { value: 'segunda', label: 'Segunda-feira' },
-    { value: 'terca', label: 'Terça-feira' },
-    { value: 'quarta', label: 'Quarta-feira' },
-    { value: 'quinta', label: 'Quinta-feira' },
-    { value: 'sexta', label: 'Sexta-feira' },
+    { value: 'Segunda-feira', label: 'Segunda-feira' },
+    { value: 'Terça-feira', label: 'Terça-feira' },
+    { value: 'Quarta-feira', label: 'Quarta-feira' },
+    { value: 'Quinta-feira', label: 'Quinta-feira' },
+    { value: 'Sexta-feira', label: 'Sexta-feira' },
   ];
   
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
