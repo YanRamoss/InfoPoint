@@ -2,14 +2,14 @@ import prisma from "@/app/lib/prisma"
 
 export async function GET(req: Request) {
 
-    const data = await prisma.cardapio.findMany({
+    const cardapio = await prisma.cardapio.findMany({
         select:{
             prato: true,
             data: true
         }
     }) 
-    if(!data) {
+    if(!cardapio) {
         Response.json({message: 'Cardapio not found', status: 404});
     }
-    return Response.json({message: 'Cardapio found', status: 200, data: data})
+    return Response.json({message: cardapio, status: 200, data: cardapio})
 } 
