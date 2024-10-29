@@ -15,7 +15,7 @@ const Header = () => {
               alt='InfoPoint' />
             </Link>
         </div>
-        <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] text-lg font-medium'>
+        <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] sm:text-lg text-sm font-medium'>
             <Link href="/">Home</Link>
             <Link href="/nossa-escola">Nossa Escola</Link>
             <Link href="/cardapio">Cardápio</Link>
