@@ -21,7 +21,7 @@ export default function AddBanner() {
       console.log('Cardápio adicionado:', data);
 
       setBanner('');
-      setLink('');
+      setImagem('');
     } else {
       console.error('Failed to add funcionario');
     }
