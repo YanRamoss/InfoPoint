@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function AddCardapio() {
   const [prato, setPrato] = useState('');
-  const [datap, setDatap] = useState('');
+  const [data, setDatap] = useState('');
   const PORT = process.env.PORT;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -13,7 +13,7 @@ export default function AddCardapio() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ prato, datap }),
+      body: JSON.stringify({ prato, data }),
     });
 
     if (response.ok) {
@@ -39,7 +39,7 @@ export default function AddCardapio() {
       <input
         type="date"
         placeholder="Data"
-        value={datap}
+        value={data}
         onChange={(e) => setDatap(e.target.value)}
         required
       />
