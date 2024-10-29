@@ -1,7 +1,7 @@
 export default async function CardapioComp() {
   type InfoItem = {
     prato: string;
-    dia: string;
+    data: string;
   };
 
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', { next: { revalidate: 10 }, method: "GET" });
@@ -14,7 +14,7 @@ export default async function CardapioComp() {
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5">
         {info.map((item, index) => (
           <div key={index} className="bg-white p-5 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold">{item.dia}</h2>
+            <h2 className="text-xl font-semibold">{item.data}</h2>
             <p><strong>Almoço:</strong> {item.prato}</p>
           </div>
         ))}
