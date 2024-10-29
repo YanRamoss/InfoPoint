@@ -4,7 +4,7 @@ import CardFuncionarios from '../components/funcionarios/CardFuncionarios'
 export default async function Funcionarios (){
   const PORT = process.env.PORT;
 
-  const response = await fetch('http://localhost:'+PORT+'/api/funcionario', {next: {revalidate: 10}, method: "GET"});
+  const response = await fetch('http://localhost:3242/api/funcionario', {next: {revalidate: 10}, method: "GET"});
   const {data} = await response.json();
   console.log(data);
   return (
