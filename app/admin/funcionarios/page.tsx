@@ -32,7 +32,9 @@ export default function AddFuncionario() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px]'>
+    <>
+    <h2 className='t text-center font-medium my-[20px]'>Adicionar Banner</h2>
+    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px] t items-center'>
       <input
         type="text"
         placeholder="Nome"
@@ -66,6 +68,6 @@ export default function AddFuncionario() {
         required
       />
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
-    </form>
+    </form></>
   );
 }

@@ -28,7 +28,9 @@ export default function AddBanner() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px]'>
+  <>
+    <h2 className='t text-center font-medium my-[20px]'>Adicionar Banner</h2>
+    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px] t items-center'>
       <input
         type="text"
         placeholder="Banner"
@@ -45,5 +47,6 @@ export default function AddBanner() {
       />
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
     </form>
+    </>
   );
 }

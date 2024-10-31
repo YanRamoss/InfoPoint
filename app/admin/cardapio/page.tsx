@@ -36,7 +36,10 @@ export default function AddCardapio() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px]'>
+    <>
+    
+    <h2 className='t text-center font-medium my-[20px]'>Adicionar Banner</h2>
+    <form onSubmit={handleSubmit} className='flex flex-col gap-[10px] t items-center'>
       <input
         type="text"
         placeholder="Prato"
@@ -48,7 +51,7 @@ export default function AddCardapio() {
       <select
         value={data}
         onChange={(e) => setData(e.target.value)}
-        className="block w-full max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
+        className="block w-[220px] max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
       >
         {options.map((option) => (
           <option key={option.value} value={option.value}>
@@ -57,6 +60,6 @@ export default function AddCardapio() {
         ))}
       </select>
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
-    </form>
+    </form></>
   );
 }
