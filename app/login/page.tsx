@@ -12,7 +12,7 @@ export default function Login() {
             <label htmlFor="senha">Senha</label>
             <input type="password" name="senha" placeholder="Senha" className="outline outline-1 py-[5px] px-[5px] outline-gray rounded-[1px] mb-[15px]"/>
 
-            <Link href="/login"></Link><input type="submit" value="Login" className="bg-iblue cursor-pointer w-[100px] rounded-[3px] text-white text-sm mx-auto" /></Link>
+            <Link href="/login"><input type="submit" value="Login" className="bg-iblue cursor-pointer w-[100px] rounded-[3px] text-white text-sm mx-auto" /></Link>
         </form>
         </>
     )
