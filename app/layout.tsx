@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="pt-br"> 
       <body className={inter.className}>
         <Header />
-        <Banners />
-          <div className="container mx-auto pb-[100px] p-[120px]">
+        <Banners className='p-[120px]'/>
+          <div className="container mx-auto pb-[100px]">
             {children}
           </div>
         <Footer />
