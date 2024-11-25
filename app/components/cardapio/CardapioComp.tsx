@@ -3,11 +3,11 @@ export default async function CardapioComp() {
 
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', { next: { revalidate: 10 }, method: "GET" });
   // const {data} = await response.json();
-  const data = [{"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
+  const data = [{"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Segunda-feira"},
     {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
-    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
-    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
-    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"}];
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Quarta-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Quinta-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Sexta-feira"}];
 
   return (
     <div className="max-w-4xl mx-auto min-h-[600px]">

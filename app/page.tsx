@@ -42,33 +42,33 @@ export default function Home(){
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Yan Ramos
     </div>
   </div>
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Nicole Tenório
     </div>
   </div>
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Ana Luisa
     </div>
   </div>
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Sofia Araujo
     </div>
   </div>
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Maria Eduarda
     </div>
   </div>
-  <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center group justify-center items-center">
-    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75 rounded-md'>
+  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center group justify-center items-center">
+    <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Willian Freire
     </div>
   </div>
