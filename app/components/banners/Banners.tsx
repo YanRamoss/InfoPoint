@@ -2,6 +2,14 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 export default function Banners() {
+    const images = [
+        "./imagens/banners/1.png",
+        "./imagens/banners/2.png",
+        "./imagens/banners/3.png",
+        "./imagens/banners/4.png",
+        "./imagens/banners/5.png",
+        "./imagens/banners/6.png",
+        ];
     const [currentImage, setCurrentImage] = useState(0);
 
     // Função para avançar para a próxima imagem
