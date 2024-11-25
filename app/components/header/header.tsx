@@ -5,7 +5,7 @@ import InfoPoint from '@/public/Infopoint.png';
 import HeaderTitle from './HeaderTitle';
 const Header = () => {
   return (
-    <header className='fixed'>
+    <header>
         <div className='flex flex-row h-[70px] w-screen items-center justify-center border-b-4 border-[#43FEF6] bg-iblue'>
             <Link href='./'>
               <Image
