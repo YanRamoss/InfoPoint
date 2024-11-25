@@ -7,7 +7,7 @@ export default function Home(){
           <div className="title">Quem Somos</div>
         </h1> 
       <div className="flex flex-col lg:flex-row w-[90%] mx-auto mt-10 gap-[30px] justify-center" >
-        <div className="sm:hidden md:flex w-[80%] h-[500px] bg-[url('/imagens/cursos/etec.jpg')] bg-cover bg-center rounded-[3px]">
+        <div className="hidden md:flex w-[80%] h-[500px] bg-[url('/imagens/cursos/etec.jpg')] bg-cover bg-center rounded-[3px]">
 
         </div>
         <div className="flex flex-col sm:w-[100%] md:w-[80%] text-[20px] gap-[20px] bg-iblue p-[20px] text-white">
