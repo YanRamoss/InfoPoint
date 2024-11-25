@@ -41,12 +41,11 @@ const CardFuncionarios = () => {
       {data.map((f, index) => (
     <div className='flex flex-col w-[180px] h-[auto]' key={index}>
         <div className="flex relative w-[80%] h-[150px] rounded-[3px] cursor-pointer">  
-        <Image
-        src='https://infopoint-sigma.vercel.app/imagens/Yan.jpg'
+        <img
+        src={f.imagem}
         alt={f.nome}
-        fill={true}
-        quality={100}
-        style={{objectFit: "cover"}}
+        className="w-full h-full object-cover rounded-md"
+
         />
         </div>
         <p>{f.nome}</p>
