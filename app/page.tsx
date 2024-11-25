@@ -38,10 +38,10 @@ export default function Home(){
           <li>Simplicidade chamativa e inovadora para que todos consigam utilizar o totem da melhor forma, tendo uma boa experiência;</li>
         </ul>
         </div>
-        <a id="aw0" target="_blank" href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsuGYLmr1FanNZuOO7HKulnX2pHG6Dql0OVKMn7ACVtVB9-PoKFKcM6hPx15paL8ETU9VLf-8NRYXzKFvuCrmibhaGja_2G8U8wepBNxX52J2dwPLNw1hvx73xUN3T-WaI0ce1YfXOJQekIqFdZ6OuszueMdtAXfwfUO1WCzVt83p127l5YxOMH6J16BWvBJ8Shqxr3r0qD3DD7kQyBETgNeG3359aMXRK8WSX5XGnO_XXkiM0bw8sBebBSj_t9ukDAt9eElJRbyl0yLMMLOX3esDVGAeovFcB9UrosPjSy5_jNAGeu4K-K36jrlc6dQmJW9-axDkFq3Nu6gPUOJgckPYUFIn-KViFK4kWQBrFAVbGNirO5jmCy9qYs&amp;sai=AMfl-YTsHQk7VT8GQsNm27Q3SxqqoapHbZX_LRkVc0Ta9tt6EroGenxHddNy1zEk-3XDBWtfLPhNTTT47L_1XQ4M7G0hrVK4WoZPKMB50C75ChrsSaSxI7bGxv0acV49&amp;sig=Cg0ArKJSzLCWWmen_W2a&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;adurl=https://www.meupesominhajornada.com.br/hcp-locator1.html%3Fcid%3Dpaid3-km2ixbfhe3&amp;nm=1" onfocus="ss('aw0')" onmousedown="st('aw0')" onmouseover="ss('aw0')" onclick="ha('aw0')"><img src="https://tpc.googlesyndication.com/simgad/6056220365001979595" border="0" width="970" height="250" alt="" class="img_ad">
-        <img src="https://tpc.googlesyndication.com/simgad/6056220365001979595" border="0" width="970" height="250" alt="" class="img_ad">
+        <a href="https://www.meupesominhajornada.com.br/hcp-locator1.html?cid=paid3-qikb2gjzvy">
+        <img src="./imagens/anuncio.gif" alt="" />
         </a>
-       </div>
+         </div>
       <div className="flex w-[100%] h-[3px] my-[30px] bg-iblue">
 
       </div>
