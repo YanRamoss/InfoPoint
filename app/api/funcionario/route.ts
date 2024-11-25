@@ -6,7 +6,8 @@ export async function GET(req: Request) {
         select:{
             nome: true,
             cargo: true,
-            area: true
+            area: true,
+            imagem: true
         }
     }) 
     if(!data) {
