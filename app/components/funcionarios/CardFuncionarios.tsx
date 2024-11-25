@@ -20,7 +20,7 @@ const CardFuncionarios = () => {
       }
       const result = await response.json();
       setData(result.data);
-    } catch (err:any) {
+    } catch (err:any) {  
       setError(err.message);
     }
   };
