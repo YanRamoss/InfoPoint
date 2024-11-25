@@ -7,12 +7,12 @@ const NossaEscola = () => {
       <h1 className='text-[25px] text-center my-[30px]'>Nossa Escola</h1>
       <div className="flex flex-col w-[90%] mx-auto">
         <h2 className='text-[23px]'>História</h2>
-        <p className='text-[17px]'>Em outubro de 2014 foi inaugurada a Etec Rio Grande da Serra localizada no município que nomeia esta nova unidade escolar. O espaço onde hoje a escola é sediada, funcionava o Centro Social Urbano, clube que ao longo do tempo deixou de cumprir sua funcionalidade social, dando oportunidade para que a Prefeitura do município realizasse uma parceria com o Governo do Estado de São Paulo, e mais especificamente com o Centro Paula Souza para o planejamento e implantação da unidade escolar.</p>
+        <p className='text-[17px] text-justify'>Em outubro de 2014 foi inaugurada a Etec Rio Grande da Serra localizada no município que nomeia esta nova unidade escolar. O espaço onde hoje a escola é sediada, funcionava o Centro Social Urbano, clube que ao longo do tempo deixou de cumprir sua funcionalidade social, dando oportunidade para que a Prefeitura do município realizasse uma parceria com o Governo do Estado de São Paulo, e mais especificamente com o Centro Paula Souza para o planejamento e implantação da unidade escolar.</p>
       </div>
       <div className="flex flex-col w-[90%] mx-auto">
         <h2 className='text-[23px]'>Começo</h2>
         <div className="flex flex-col lg:flex-row gap-[30px]">
-          <p className='text-[17px] w-[100%]'>No primeiro momento a escola inicia suas atividades como extencão da ETEC Julio Mesquita de Santo André. A Prof. Suely de Campos França Magini foi quem capitaneou a implantaçãoo desta nova unidade escolar do Centro Paula Souza. Em outubro de 2014 o governador do Estado de São Paulo decreta a criação da Etec de Rio Grande da Serra, e nomeia o Prof.Cláudio Kubilius como Diretor da unidade.</p>
+          <p className='text-[17px] w-[100%] text-justify'>No primeiro momento a escola inicia suas atividades como extencão da ETEC Julio Mesquita de Santo André. A Prof. Suely de Campos França Magini foi quem capitaneou a implantaçãoo desta nova unidade escolar do Centro Paula Souza. Em outubro de 2014 o governador do Estado de São Paulo decreta a criação da Etec de Rio Grande da Serra, e nomeia o Prof.Cláudio Kubilius como Diretor da unidade.</p>
           <div className="flex w-[100%] h-[300px] bg-[url('/imagens/cursos/etec.jpg')] bg-cover bg-center rounded-[3px]">
 
           </div>
