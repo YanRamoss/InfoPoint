@@ -3,7 +3,11 @@ export default async function CardapioComp() {
 
   const response = await fetch('https://infopoint-sigma.vercel.app/api/cardapio', { next: { revalidate: 10 }, method: "GET" });
   // const {data} = await response.json();
-  const data = [{"prato": "Arroz e Frango", "data": "Segunda-feira"},{"prato": "Arroz e Frango", "data": "Terça-feira"}];
+  const data = [{"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"},
+    {"cafe": "Bolacha e Leite","almoco": "Arroz e Frango", "cafe2": "Bolacha e Suco", "janta": "Arroz e Frango", "data": "Terça-feira"}];
 
   return (
     <div className="max-w-4xl mx-auto min-h-[600px]">
@@ -13,7 +17,10 @@ export default async function CardapioComp() {
           return(
           <div key={f.prato} className="bg-white p-5 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold">{f.data}</h2>
-            <p><strong>Almoço:</strong> {f.prato}</p>
+            <p><strong>Café da manhã:</strong> {f.cafe}</p>
+            <p><strong>Almoço:</strong> {f.almoco}</p>
+            <p><strong>Café da tarde:</strong> {f.cafe2}</p>
+            <p><strong>Janta:</strong> {f.janta}</p>
           </div>
           )
         }) } 
