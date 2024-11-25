@@ -29,7 +29,7 @@ const banners = [
   }, []);
 
   return(
-    <div className="relative w-full h-[500px] bg-gray-300">
+    <div className="relative w-full h-[300px] bg-gray-300">
     <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50">
       <Image 
         src={banners[currentImage]} 
