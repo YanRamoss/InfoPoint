@@ -48,8 +48,8 @@ const CardFuncionarios = () => {
 
         />
         </div>
-        <p className='text-base'>{f.nome}</p>
-        <p className='text-xs bold'>{f.cargo}</p>
+        <p className='text-base font-bold'>{f.nome}</p>
+        <p className='text-xs'>{f.cargo}</p>
         </div>
       ))}</>
     ) 
