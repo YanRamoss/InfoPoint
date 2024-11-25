@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+
+export default function Home(){
   const banners = [
     "./imagens/banners/1.png",
     "./imagens/banners/2.png",
