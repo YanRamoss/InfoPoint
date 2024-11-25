@@ -15,7 +15,7 @@ const Header = () => {
         alt='InfoPoint' />
     </Link>
   </div>
-  <nav className='flex flex-row p-5 mx-auto justify-center gap-[15px] md:gap-[30px] sm:text-[10px] md:text-sm font-medium bg-white'>
+  <nav className='flex flex-row p-5 mx-auto justify-center gap-[15px] md:gap-[30px] sm:text-[10px] md:text-lg font-medium bg-white'>
     <Link href="/" className='relative group'>
       Home
       <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
