@@ -20,8 +20,12 @@ const Header = () => {
       Home
       <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
     </Link>
-    <Link href="/nossa-escola" className='relative group'>
+    <Link href="/nossa-escola" className='relative hidden md:flex group'>
       Nossa Escola
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+    <Link href="/nossa-escola" className='relative flex md:hidden group'>
+      Escola
       <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
     </Link>
     <Link href="/cardapio" className='relative group'>

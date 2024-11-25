@@ -7,7 +7,7 @@ const Calendario = () => {
       <embed className='mx-auto hidden md:flex' src="/calendario.pdf" width="1000" height="800" 
        type="application/pdf">
       </embed>
-      <a href="/calendario.pdf" className="flex md:hidden" download>Baixe agora o calendário anual.</a>
+      <a href="/calendario.pdf" className="flex md:hidden underline text-iblue mx-[20px] text-center" download>Baixe agora o calendário anual.</a>
     </div>
   )
 }
