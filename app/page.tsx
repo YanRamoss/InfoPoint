@@ -10,7 +10,7 @@ const images = [
   ];
 export default function Home() { 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-[120px]">
         <h1 className="flex items-center justify-center bg-[url('/imagens/pages/home-banner.jpg')] bg-cover bg-center h-[220px] text-[25px] py-[30px]">
           <div className="title">Quem Somos</div>
         </h1> 
@@ -51,22 +51,22 @@ export default function Home() {
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center">
-
+              <div className=''>Yan Ramos</div>
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center">
-
+              <div className=''>Nicole Tenório</div>
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center">
-
+              <div className=''>Ana Luisa</div>
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center">
-
+              <div className=''>Sofia Araujo</div>
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center">
-
+              <div className=''>Maria Eduarda</div>
           </div>
           <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center">
-
+              <div className=''>Willian Freire</div>
           </div>
         </div>
       </div>
