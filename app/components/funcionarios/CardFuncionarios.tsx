@@ -51,10 +51,9 @@ const CardFuncionarios = () => {
         </div>
         <p>{f.nome}</p>
         <p>{f.cargo}</p>
-        <p>Área de Atuação</p>
         </div>
       ))}</>
-  )
+    ) 
 }
 
 export default CardFuncionarios
