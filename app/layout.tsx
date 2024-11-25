@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pt-br"> 
       <body className={inter.className}>
         <Header />
-          <div className="container mx-auto pb-[100px] mt-[120px]">
+          <div className="container mx-auto pb-[100px] p-[120px]">
             {children}
           </div>
         <Footer />
