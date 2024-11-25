@@ -1,6 +1,6 @@
 export default function Admin() {
 
     return(
-        <h1 className="text-center t">Painel Administrativo</h1>
+        <h2 className='text-center text-[25px] py-[30px]'>Painel Administrativo</h2>
     )
 }
