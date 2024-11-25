@@ -47,3 +47,11 @@ body {
 .t {
   width: calc(100% - 110px);
 }
+
+.ts {
+  display: hidden;
+}
+
+.at:hover~.ts {
+  display: flex;
+}

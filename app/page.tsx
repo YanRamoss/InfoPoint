@@ -44,23 +44,23 @@ export default function Home(){
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center">
-              <div className=''>Yan Ramos</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center">
+              <div className='ts'>Yan Ramos</div>
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center">
-              <div className=''>Nicole Tenório</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center">
+              <div className='ts'>Nicole Tenório</div>
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center">
-              <div className=''>Ana Luisa</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center">
+              <div className='ts'>Ana Luisa</div>
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center">
-              <div className=''>Sofia Araujo</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center">
+              <div className='ts'>Sofia Araujo</div>
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center">
-              <div className=''>Maria Eduarda</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center">
+              <div className='ts'>Maria Eduarda</div>
           </div>
-          <div className="flex w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center">
-              <div className=''>Willian Freire</div>
+          <div className="flex at w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center">
+              <div className='ts'>Willian Freire</div>
           </div>
         </div>
       </div>
