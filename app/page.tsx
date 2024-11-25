@@ -23,7 +23,7 @@ import Image from 'next/image';
   // Automatizar a troca de imagem a cada 3 segundos
   useEffect(() => {
     const interval = setInterval(nextImage, 3000);
-    return () => clearInterval(interval);
+    clearInterval(interval);
   }, []);
 
   return (
