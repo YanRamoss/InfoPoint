@@ -33,7 +33,7 @@ export default function AddFuncionario() {
 
   return (
     <>
-    <h2 className='t text-center font-medium my-[20px]'>Adicionar Banner</h2>
+    <h2 className='t text-center font-medium my-[20px]'>Adicionar Docente</h2>
     <form onSubmit={handleSubmit} className='flex flex-col gap-[10px] t items-center'>
       <input
         type="text"

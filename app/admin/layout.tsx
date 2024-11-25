@@ -9,7 +9,7 @@ export default function RootLayout({
       <div className="flex flex-row max-w-[100vw]">
             <div className="flex flex-col gap-[15px] w-[110px] items-center">
                 <Link href="/admin/banners" className="border-b-[1px] border-solid border-iblue w-full">Banners</Link>
-                <Link href="/admin/funcionarios" className="border-b-[1px] border-solid border-iblue w-full">Funcionários</Link>
+                <Link href="/admin/docentes" className="border-b-[1px] border-solid border-iblue w-full">Docentes</Link>
                 {/* <Link href="/admin/equipe" className="border-b-[1px] border-solid border-iblue w-full">Equipe</Link> */}
                 <Link href="/admin/cardapio" className="border-b-[1px] border-solid border-iblue w-full">Cardápio</Link>
             </div>
