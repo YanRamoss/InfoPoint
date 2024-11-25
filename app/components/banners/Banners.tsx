@@ -29,7 +29,7 @@ export default function Banners() {
     }, []);
 
   return(
-    <div className="relative w-full h-[500px] bg-gray-300 p-[120px]">
+    <div className="relative w-full h-[500px] bg-gray-300 py-[150px]">
     <div className="absolute top-0 left-0 w-full h-full">
       {/* Imagem do Slide */}
       <img 
