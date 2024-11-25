@@ -3,8 +3,6 @@ import Banners from "./components/banners/Banners";
 export default function Home(){
   return (
     <div className="container mx-auto">
-        <Banners />
-
         <h1 className="flex items-center justify-center bg-[url('/imagens/pages/home-banner.jpg')] bg-cover bg-center h-[220px] text-[25px] py-[30px]">
           <div className="title">Quem Somos</div>
         </h1> 
