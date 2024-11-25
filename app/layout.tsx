@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <Banners/>
-          <div className="mx-[80px] lg:pb-[100px]">
+          <div className="lg:mx-[80px] lg:pb-[100px]">
             {children}
           </div>
         <Footer />
