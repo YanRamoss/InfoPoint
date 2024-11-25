@@ -6,24 +6,39 @@ import HeaderTitle from './HeaderTitle';
 const Header = () => {
   return (
     <header className='fixed top-0 z-[1000]'>
-        <div className='flex flex-row h-[70px] w-screen items-center justify-center border-b-4 border-[#43FEF6] bg-iblue'>
-            <Link href='./'>
-              <Image
-              src={InfoPoint}
-              width={200}
-              height={80}
-              alt='InfoPoint' />
-            </Link>
-        </div>
-        <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] sm:text-lg text-sm font-medium bg-white'>
-            <Link href="/">Home</Link>
-            <Link href="/nossa-escola">Nossa Escola</Link>
-            <Link href="/cardapio">Cardápio</Link>
-            <Link href="/calendario">Calendário</Link>
-            <Link href="/docentes">Docentes</Link>
-        </nav>
-        {/* <HeaderTitle title='Home' image="teste" /> */}
-    </header>
+  <div className='flex flex-row h-[70px] w-screen items-center justify-center border-b-4 border-[#43FEF6] bg-iblue'>
+    <Link href='./'>
+      <Image
+        src={InfoPoint}
+        width={200}
+        height={80}
+        alt='InfoPoint' />
+    </Link>
+  </div>
+  <nav className='flex flex-row p-5 mx-auto justify-center gap-[30px] sm:text-lg text-sm font-medium bg-white'>
+    <Link href="/" className='relative group'>
+      Home
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+    <Link href="/nossa-escola" className='relative group'>
+      Nossa Escola
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+    <Link href="/cardapio" className='relative group'>
+      Cardápio
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+    <Link href="/calendario" className='relative group'>
+      Calendário
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+    <Link href="/docentes" className='relative group'>
+      Docentes
+      <div className='absolute bottom-0 left-0 w-0 h-[2px] bg-iblue group-hover:w-full transition-all duration-300'></div>
+    </Link>
+  </nav>
+</header>
+
   )
 }
 
