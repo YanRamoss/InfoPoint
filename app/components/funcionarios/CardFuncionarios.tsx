@@ -42,7 +42,7 @@ const CardFuncionarios = () => {
     <div className='flex flex-col w-[180px] h-[auto]' key={index}>
         <div className="flex relative w-[80%] h-[150px] rounded-[3px] cursor-pointer">  
         <Image
-        src='./imagens/Yan.jpg'
+        src='https://infopoint-sigma.vercel.app/imagens/Yan.jpg'
         alt={f.nome}
         fill={true}
         quality={100}
