@@ -38,7 +38,7 @@ export default function Home(){
           <li>Simplicidade chamativa e inovadora para que todos consigam utilizar o totem da melhor forma, tendo uma boa experiência;</li>
         </ul>
         </div>
-        <a href="https://www.meupesominhajornada.com.br/hcp-locator1.html?cid=paid3-qikb2gjzvy">
+        <a href="https://www.meupesominhajornada.com.br/hcp-locator1.html?cid=paid3-qikb2gjzvy" className='flex mx-auto items-center justify-center'>
         <img src="./imagens/anuncio.gif" alt="" />
         </a>
          </div>
