@@ -39,6 +39,9 @@ export default function Home(){
         </ul>
         </div>
       </div>
+      <div className="flex w-[100%] h-[3px] my-[30px] bg-iblue">
+
+      </div>
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
