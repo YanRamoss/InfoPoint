@@ -35,7 +35,7 @@ export default function Banners() {
       <img 
         src={images[currentImage]} 
         alt={`Slide ${currentImage}`} 
-        className="w-full h-full sm:object-contain md:object-cover rounded-md"
+        className="w-full h-full object-cover rounded-md"
       />
     </div>
 

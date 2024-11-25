@@ -39,8 +39,8 @@ const CardFuncionarios = () => {
     <>
     
       {data.map((f, index) => (
-    <div className='flex flex-col sm:w-[100px] md:w-[180px] h-[auto]' key={index}>
-        <div className="flex relative w-[80%] h-[auto] rounded-[3px] cursor-pointer">  
+    <div className='flex sm:flex-row md:flex-col w-[180px] h-[auto]' key={index}>
+        <div className="flex relative w-[80%] h-[150px] rounded-[3px] cursor-pointer">  
         <img
         src={f.imagem}
         alt={f.nome}
