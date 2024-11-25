@@ -20,7 +20,7 @@ const Header = () => {
             <Link href="/nossa-escola">Nossa Escola</Link>
             <Link href="/cardapio">Cardápio</Link>
             <Link href="/calendario">Calendário</Link>
-            <Link href="/funcionarios">Funcionários</Link>
+            <Link href="/docentes">Docentes</Link>
         </nav>
         {/* <HeaderTitle title='Home' image="teste" /> */}
     </header>

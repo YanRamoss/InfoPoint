@@ -12,7 +12,7 @@ export default function Home(){
         </div>
         <div className="flex flex-col w-[80%] text-[20px] gap-[20px] bg-iblue p-[20px] text-white">
           <p className='text-justify'>
-            Nós somos alunos da ETEC Rio Grande da Serra do 3° ano de Desenvolvimento de Sistemas e estamos desenvolvendo uma empresa durante as aulas de TCC (trabalho de conclusão de cursos).
+            Nós somos alunos da ETEC Rio Grande da Serra do 3° ano de Desenvolvimento de Sistemas e estamos desenvolvendo uma empresa durante as aulas de TCC (trabalho de conclusão de curso).
           </p>
           <p className='text-justify'>
             Nosso projeto inclui um totem de informações interativo para otimizar a divulgação de informações sobre a unidade escolar, proporcionando uma experiência de comunicação eficiente e acessível para alunos, pais, professores e comunidade, promovendo assim o engajamento e o fortalecimento dos laços entre a escola e seu público-alvo. 
@@ -22,7 +22,7 @@ export default function Home(){
       <div className="flex flex-col w-[90%] mt-[80px] mx-auto gap-[30px] text-black">
         <div className="flex flex-col">
           <h2 className='text-[23px] font-semibold'>Missão</h2>
-          <p className='text-[17px]'>Nossa missão é transformar a rotina e vida escolar dos alunos e docentes, tornando ela mais pratica e simples em questão da transmissão de informações, fazendo com que todo frequentador do âmbito escolar tenha melhor experiência acadêmica.</p>
+          <p className='text-[17px]'>Nossa missão é transformar a rotina e vida escolar dos alunos e docentes, tornando-a mais prática e simples em questão da transmissão de informções, fazendo com que todo frequentador do âmbito escolar tenha melhor experiência acadêmica.</p>
         </div>
         <div className="flex flex-col">
           <h2 className='text-[23px] font-semibold'>Visão</h2>
@@ -31,10 +31,10 @@ export default function Home(){
         <div className="flex flex-col">
           <h2 className='text-[23px] font-semibold'>Valores</h2>
           <ul className='text-[17px]'>
-          <li>Transparência; Trabalhamos de forma honesta, mostrando todos nossos objetivos e sendo fiel ao nosso público;</li>
-          <li>Acessibilidade; é um sistema acessível, pois está localizado dentro da escola, disponível para os que frequentam esse ambiente;</li>
-          <li>Ética; trabalhamos de forma ética, guardando todas as informações passadas a nós;</li>
-          <li>Responsabilidade social; Como é um projeto que envolve público, foi tudo pensado para que seja uma experiência única para cada um;</li>
+          <li><b>Transparência:</b> Trabalhamos de forma honesta, mostrando todos nossos objetivos e sendo fiel ao nosso público;</li>
+          <li><b>Acessibilidade:</b> é um sistema acessível, pois está localizado dentro da escola, disponível para os que frequentam esse ambiente;</li>
+          <li><b>Ética:</b> trabalhamos de forma ética, guardando todas as informações passadas a nós;</li>
+          <li><b>Responsabilidade social:</b> Como é um projeto que envolve público, foi tudo pensado para que seja uma experiência única para cada um;</li>
           <li>Simplicidade chamativa e inovadora para que todos consigam utilizar o totem da melhor forma, tendo uma boa experiência;</li>
         </ul>
         </div>
@@ -42,32 +42,32 @@ export default function Home(){
       <div className="flex flex-col">
         <h1 className='text-[25px] text-center my-[30px]'>Nosso Time</h1>
         <div className="flex flex-row flex-wrap gap-[30px] justify-center">
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Yan.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Yan Ramos
     </div>
   </div>
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Nicole.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Nicole Tenório
     </div>
   </div>
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Ana.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Ana Luisa
     </div>
   </div>
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Sofia.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Sofia Araujo
     </div>
   </div>
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Duda.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Maria Eduarda
     </div>
   </div>
-  <div className="flex pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center group justify-center items-center">
+  <div className="flex cursor-pointer w-[200px] h-[250px] bg-[#c9c9c9b4] rounded-[3px] bg-[url('/imagens/Willian.jpg')] bg-cover bg-center group justify-center items-center">
     <div className='text-center bg-iblue w-full ts hidden group-hover:block text-white p-2 bg-black opacity-75'>
       Willian Freire
     </div>
