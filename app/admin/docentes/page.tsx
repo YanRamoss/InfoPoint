@@ -1,6 +1,6 @@
 'use client'
+import CardFuncionariosAdmin from '@/app/components/funcionarios/CardFuncionariosAdmin';
 import { useState } from 'react';
-import CardFuncionariosAdmin from './../components/funcionarios/CardFuncionariosAdmin'
 
 export default function AddFuncionario() {
   const [nome, setNome] = useState('');
