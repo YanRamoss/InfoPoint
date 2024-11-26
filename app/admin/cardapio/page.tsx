@@ -5,6 +5,7 @@ export default function AddCardapio() {
   const [prato, setPrato] = useState('');
   const PORT = process.env.PORT;
   const [data, setData] = useState('Segunda-feira');
+  const [categoria, setCategoria] = useState('Café da manhã');
 
   const options = [
     { value: 'Segunda-feira', label: 'Segunda-feira' },
@@ -12,6 +13,12 @@ export default function AddCardapio() {
     { value: 'Quarta-feira', label: 'Quarta-feira' },
     { value: 'Quinta-feira', label: 'Quinta-feira' },
     { value: 'Sexta-feira', label: 'Sexta-feira' },
+  ];
+  const categorias = [
+    { value: 'cafe1', label: 'Café da Manhã' },
+    { value: 'almoco', label: 'Almoço' },
+    { value: 'cafe2', label: 'Café da Tarde' },
+    { value: 'janta', label: 'Janta' },
   ];
   
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -47,13 +54,24 @@ export default function AddCardapio() {
         onChange={(e) => setPrato(e.target.value)}
         required
       />
-      
       <select
         value={data}
         onChange={(e) => setData(e.target.value)}
         className="block w-[220px] max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
       >
         {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+      
+      <select
+        value={categoria}
+        onChange={(e) => setCategoria(e.target.value)}
+        className="block w-[220px] max-w-xs px-4 py-2 border rounded-md bg-white text-gray-700 focus:outline-none focus:ring focus:ring-blue-300"
+      >
+        {categorias.map((option) => (
           <option key={option.value} value={option.value}>
             {option.label}
           </option>
