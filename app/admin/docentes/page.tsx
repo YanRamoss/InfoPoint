@@ -61,8 +61,7 @@ export default function AddFuncionario() {
         required
       />
       <input
-        type="text"
-        placeholder="Imagem"
+        type="file"
         className='w-[180px]'
         value={imagem}
         onChange={(e) => setImagem(e.target.value)}
