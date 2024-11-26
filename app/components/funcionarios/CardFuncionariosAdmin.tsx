@@ -47,5 +47,3 @@ export default function CardFuncionariosAdmin() {
       ))}</>
     ) 
 }
-
-export default CardFuncionarios
