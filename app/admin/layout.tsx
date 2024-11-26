@@ -7,7 +7,7 @@ export default function RootLayout({
   }>) {
     return (
       <div className="flex flex-row min-h-[200px] max-w-[100vw]">
-            <div className="flex flex-col gap-[15px] w-[110px] h-[200px]">
+            <div className="flex flex-col gap-[15px] my-[50px] w-[110px] h-[200px]">
                 <Link href="/admin/banners" className="border-b-[1px] border-solid border-iblue w-full">Banners</Link>
                 <Link href="/admin/docentes" className="border-b-[1px] border-solid border-iblue w-full">Docentes</Link>
                 {/* <Link href="/admin/equipe" className="border-b-[1px] border-solid border-iblue w-full">Equipe</Link> */}
