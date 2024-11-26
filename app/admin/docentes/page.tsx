@@ -70,7 +70,7 @@ export default function AddFuncionario() {
       />
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
     </form>
-    <div className="flex flex-col w-[auto] h-[auto] mx-auto">
+    <div className="flex flex-col w-[auto] h-[auto] mx-auto justify-right items-right">
       <CardFuncionariosAdmin />
     </div>
     </>
