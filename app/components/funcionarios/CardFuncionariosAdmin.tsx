@@ -39,9 +39,8 @@ export default function CardFuncionariosAdmin() {
     <>
     
       {data.map((f, index) => (
-    <div className='flex flex-row w-[auto] h-[auto] gap-[20px]' key={index}>
+    <div className='flex flex-row w-[auto] h-[auto] gap-[20px] items-center' key={index}>
         <p className='text-base font-bold'>{f.nome}</p>
-        <p className='text-xs'>{f.cargo}</p>
         <a href="" className='underline'>Deletar</a>
         </div>
       ))}</>
