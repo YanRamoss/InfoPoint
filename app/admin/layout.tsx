@@ -6,7 +6,7 @@ export default function RootLayout({
     children: React.ReactNode;
   }>) {
     return (
-      <div className="flex flex-row min-h-[200px] justify-center items-center max-w-[100vw]">
+      <div className="flex flex-row min-h-[200px] max-w-[100vw]">
             <div className="flex flex-col gap-[15px] w-[110px] h-[200px]">
                 <Link href="/admin/banners" className="border-b-[1px] border-solid border-iblue w-full">Banners</Link>
                 <Link href="/admin/docentes" className="border-b-[1px] border-solid border-iblue w-full">Docentes</Link>
