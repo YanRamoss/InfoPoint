@@ -5,7 +5,7 @@ export default function AddCardapio() {
   const [prato, setPrato] = useState('');
   const PORT = process.env.PORT;
   const [data, setData] = useState('Segunda-feira');
-  const [categoria, setCategoria] = useState('Café da manhã');
+  const [categoria, setCategoria] = useState('cafe1');
 
   const options = [
     { value: 'Segunda-feira', label: 'Segunda-feira' },
