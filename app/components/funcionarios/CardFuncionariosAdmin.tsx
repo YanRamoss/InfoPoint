@@ -8,7 +8,7 @@ type Funcionario = {
     imagem:string,
 }
 
-export default function CardFuncionariosAdmin = () => {
+export default function CardFuncionariosAdmin() {
   const [data, setData] = useState<Funcionario[]>([]);
   const [error, setError] = useState();
 
