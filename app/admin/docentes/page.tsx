@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import CardFuncionariosAdmin from '../components/funcionarios/CardFuncionariosAdmin'
 
 export default function AddFuncionario() {
   const [nome, setNome] = useState('');
@@ -68,6 +69,10 @@ export default function AddFuncionario() {
         required
       />
       <button type="submit" className='flex relative w-[120px] justify-center text-white rounded-[3px] mx-auto p-[3px 5px] bg-iblue'>Adicionar</button>
-    </form></>
+    </form>
+    <div className="flex flex-col w-full h-[auto]">
+      <CardFuncionariosAdmin />
+    </div>
+    </>
   );
 }
